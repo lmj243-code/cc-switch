@@ -3255,5 +3255,7 @@ export const providerPresets: ProviderPreset[] = [
       },
     },
     category: "aggregator",
+    apiFormat: "openai_chat",
+    endpointCandidates: ["https://apiniuma.com"],
   },
 ];
